@@ -1,0 +1,828 @@
+@charset 'utf-8';
+
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.spoka * {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Spoqa Han Sans', "Sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.64px;
+    line-height: 1.4;
+}
+
+
+/* common */
+
+.inner {
+    position: relative;
+    display: block;
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+/* specific */
+
+/* header */
+.header {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #000;
+    z-index: 99999;
+}
+
+.header .inner {
+    position: relative;
+    display: block;
+    height: 96px;
+}
+
+.header .inner>h1 {
+    position: relative;
+    display: block;
+    height: 48px;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.header .inner>h1>a {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.header .inner>h1>a>img {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.header-menu {
+    position: relative;
+    display: block;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 24px;
+}
+
+.header-menu ul {
+    position: relative;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+}
+
+.header-menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.header-menu ul li a {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.header-navigation {
+    position: relative;
+    display: block;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.header-navigation ul {
+    position: relative;
+    display: block;
+    float: right;
+    height: 48px;
+}
+
+.header-navigation ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 16px;
+}
+
+.header-navigation ul li a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.split {
+    position: relative;
+    top: 2px;
+    display: block;
+    width: 1px;
+    height: 14px;
+    float: left;
+    background-color: #fff;
+}
+
+.hn-cart {
+    position: relative;
+    display: block;
+    float: right;
+    width: 48px;
+    height: 48px;
+    background: url('../images/white-line-cart.svg') no-repeat center;
+    background-size: cover;
+}
+
+.hn-menu {
+    position: relative;
+    display: block;
+    float: right;
+    width: 48px;
+    height: 48px;
+    background: url('../images/3whiteline.svg') no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mainbanner */
+.mainbanner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 540px;
+}
+
+.mainbanner>a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../images/main_firstgift_logout.29ecc8b.png') no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+/* events */
+.events {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 180px;
+}
+
+.events .inner {
+    position: relative;
+    display: block;
+    margin-top: 42px;
+    height: 100%;
+}
+
+.events-main.em-swiper {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.em-swiper a {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.em-1 {
+    background: url('../images/202206_event_summer-pc-banner-2.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-2 {
+    background: url('../images/2022.05_pricing_PC2202_05_pricing.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-3 {
+    background: url('../images/2021.11_quick_delivery_expansion_PC.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-4 {
+    background: url('../images/PC_전복.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-5 {
+    background: url('../images/202202_event_applaunching-pc-banner.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-6 {
+    background: url('../images/202201_event_review-pc-banner.png.png') no-repeat center;
+    background-size: contain;
+}
+
+.em-7 {
+    background: url('../images/baby-giftcube-mainbanner-pc.png') no-repeat center;
+    background-size: contain;
+}
+
+
+.em-swiper-control {
+    position: absolute;
+    top: 80%;
+    display: block;
+    width: 97px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    z-index: 999;
+}
+
+.ems-control-prev {
+    position: relative;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.ems-control-prev>span {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.25;
+}
+
+.ems-control-number {
+    position: relative;
+    display: block;
+    float: left;
+    width: 35px;
+    height: 30px;
+    border: 0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 26px;
+}
+
+.ems-control-number>span {
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+}
+
+.ems-control-next {
+    position: relative;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.ems-control-next>span {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.events-freshplan {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-left: 0.5px solid rgb(219, 219, 219);
+}
+
+.events-freshplan>a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../images/freshplan.9fe4775.png') no-repeat center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+/* bestitem */
+.besttiem-shop {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.besttiem-shop .inner {
+    position: relative;
+    display: block;
+}
+
+
+.besttiem-shop .inner h2 {
+    position: relative;
+    display: block;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.bis-uplist,
+.bis-downlist {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.bis-uplist li,
+.bis-downlist li {
+    position: relative;
+    display: block;
+    float: left;
+    width: calc((100% - 60px) / 3);
+    margin-bottom: 60px;
+}
+
+.bis-uplist li:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bis-downlist li:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.biul-detail {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.biuld-pic {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #f9f7f8;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+
+.biul-detail1,
+.biul-detail2,
+.biul-detail3 {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.biuld-pic>a.biul-detail1>img,
+.biuld-pic>a.biul-detail2>img,
+.biuld-pic>a.biul-detail3>img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+.bidl-detail {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+.bidld-pic {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #f9f7f8;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+
+.bidl-detail4,
+.bidl-detail5,
+.bidl-detail6 {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.antimark {
+    position: absolute;
+    display: block;
+    width: 78px;
+    height: 36px;
+    left: 18px;
+    top: 18px;
+    background: url('../images/muhang.svg') no-repeat center;
+    background-size: contain;
+}
+
+
+
+.bidl-detail4>img,
+.bidl-detail5>img,
+.bidl-detail6>img {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
+
+a.bi-shoppingcart {
+    position: relative;
+    display: block;
+    width: 20%;
+    margin-left: 75%;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    box-shadow: 0 25px 10px -15px rgb(0 0 0 / 12%);
+}
+
+a.bi-shoppingcart>img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+a.bi-shoppingcart:hover>img {
+    background-color: #000;
+    filter: brightness(10);
+}
+
+.biul-detail h4,
+.bidl-detail h4 {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+
+.biul-detail p,
+.bidl-detail p {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    color: #9b9b9b;
+
+}
+
+.shoptab {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: url('../images/banner_shop.96086e0.png') no-repeat center;
+    background-size: contain;
+    margin-top: 33px;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 120px;
+    border-top: 1px solid #bdbdbd;
+}
+
+.footer-inner {
+    position: relative;
+    display: block;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
+.footer-navigation {
+    position: relative;
+    display: block;
+    width: 1160px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.footer-navigation-menu {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 10px auto;
+}
+
+.footer-navigation-menu>a {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.footer-navigation-apps {
+    position: relative;
+    display: block;
+    float: right;
+    margin: 6px 0;
+}
+
+.fn-apps-button {
+    position: relative;
+    display: block;
+    float: left;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: #fafafa url('../images/phone_iphone_FILL0_wght400_GRAD0_opsz48.png') no-repeat left center;
+    background-size: 24px;
+    background-position-x: 6px;
+    background-position-y: center;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.fn-apps-button span {
+    position: relative;
+    margin: 6px;
+    margin-left: 30px;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: -0.4px;
+}
+
+.fn-apps-icon1 {
+    position: relative;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url('../images/kakaotalk_channel.svg') no-repeat 50% 50%;
+    background-size: contain;
+    margin: 3px 0px 3px 12px;
+}
+
+.fn-apps-icon2 {
+    position: relative;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url('../images/instagram.svg') no-repeat 50% 50%;
+    background-size: contain;
+    margin: 3px 0px 3px 12px;
+
+}
+
+.footer-split {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 11px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.footer-main {
+    position: relative;
+    display: block;
+    width: 1160px;
+    margin: 6px auto;
+    margin-bottom: 18px;
+}
+
+.footer-main-information {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 18px;
+}
+
+.footer-main-information img {
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 36px;
+}
+
+.fm-information-detail {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+}
+
+
+.fm-information-detail p {
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    line-height: 19px;
+}
+
+.fm-information-detail p>span {
+    position: relative;
+    font-size: 13px;
+    line-height: 19px;
+    margin-right: 6px;
+    color: #212121;
+}
+
+
+.fm-information-detail p>a {
+    font-size: 13px;
+    color: #4bb8ce;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.footer-main-information>span {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+
+
+
+.footer-main-cs {
+    position: relative;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.fm-cs-center h3 {
+    position: relative;
+    display: block;
+    font-size: 14px;
+
+}
+
+.fm-cs-center span {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    margin-top: -6px;
+}
+
+.fm-cs-center p {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+    margin-top: -6px;
+}
+
+.fm-cs-contract {
+    position: relative;
+    display: block;
+    margin-top: 9px;
+}
+
+.fm-cs-contract p {
+    position: relative;
+    display: block;
+    font-size: 13px;
+}
+
+.fm-cs-contract span {
+    color: #4bb8ce;
+    cursor: pointer;
+}
+
+.fm-cs-question {
+    position: relative;
+    display: block;
+    margin-top: 9px;
+}
+
+.fm-cs-question button {
+    font-size: 13px;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 12px;
+
+}
+
+
+.fm-cs-question span {
+    position: relative;
+    display: block;
+    margin: 6px 12px;
+    font-family: 'Spoqa Han Sans', "Sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.6px;
+    line-height: 1.4;
+}
+
+@media all and (max-with:1160px) {
+
+    .inner,
+    .footer-inner {
+        width: 100vw;
+
+    };
+}
